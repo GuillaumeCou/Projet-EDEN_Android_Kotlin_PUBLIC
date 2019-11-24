@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">EDEN</string>
+
+    <string name="user_surname">Nom</string>
+    <string name="user_firstname">Prénom</string>
+    <string name="point_median">--------</string>
+    <!-- CHOICES -->
+    <string name="popup_message_yes">Oui</string>
+    <string name="popup_message_no">Non</string>
+    <string name="popup_message_ok">Ok</string>
+    <string name="popup_message_profile_update_ui">Etes-vous sûr(e) que ces informations sont justes ?</string>
+
+    <!-- BOTTOM NAVIGATION VIEW -->
+    <string name="bottom_navigation_menu_profile">Profil</string>
+    <string name="bottom_navigation_menu_alert">Alerte</string>
+    <string name="bottom_navigation_menu_map">Carte</string>
+    <string name="bottom_navigation_menu_other">Autre</string>
+
+    <!-- WARNINGS -->
+    <string name="warning_internet_connection_needed_title">Connexion internet nécessaire</string>
+    <string name="warning_internet_connection_needed_message">Pour envoyer une alerte vous devez être connecté à
+        internet
+    </string>
+    <string name="warning_title">Attention</string>
+    <string name="warning_select_at_least_one_choice">Merci de donner un avis sur l\'intervention avant de continuer
+    </string>
+
+    <!-- LOGS -->
+    <string name="log_updateUI_success">Update UI successful</string>
+    <string name="log_updateUI_fail">Update UI failure</string>
+
+    <string name="ou">------------------- ou --------------------</string>
+    <string name="facebook_app_id">855181901525403</string>
+    <string name="fb_login_protocol_scheme">fb855181901525403</string>
+
+
+    <!-- PROFILE -->
+    <string name="email_checked_yes">Votre email a été vérifié</string>
+    <string name="email_checked_no">Votre email n\'a pas été vérifié</string>
+    <string name="telephone_checked_yes">Votre numéro de téléphone a été vérifié</string>
+    <string name="telephone_checked_no">Votre numéro de téléphone n\'a pas été vérifié</string>
+    <string name="cardid_checked_yes">Votre carte d\'identité a été vérifiée</string>
+    <string name="cardid_checked_no">Votre carte d\'identité n\'a pas été vérifiée</string>
+    <string name="photo_checked_yes">Votre photo de profil a été validée</string>
+    <string name="photo_checked_no">Votre photo de profil n\'a pas été validée</string>
+    <string name="text_enable_data_changes">Modifier les données</string>
+    <string name="button_select_photo">Choisir une photo</string>
+    <string name="button_validate_update">Valider les modifications</string>
+    <string name="button_sign_out">Déconnexion</string>
+    <string name="button_delete_profile">Supprimer le compte</string>
+
+
+    <!-- TOASTS -->
+    <string name="toast_title_no_image_found">Aucune image trouvée</string>
+
+
+    <!-- ALERT RECIEVED -->
+    <string name="alert_proposition">Cette personne à besoin d\'aide. Voulez-vous intervenir ?</string>
+    <string name="alert_accept">Accepter</string>
+    <string name="alert_decline">Décliner</string>
+
+
+    <!-- COMMENT -->
+    <string name="comment_validate">Valider</string>
+    <string name="comment_mot">Merci pour engagement. Pensez à laiser un commentaire</string>
+    <string name="comment_comment">Un petit commentaire ?</string>
+    <string name="message_intervention">L\'intervention s\'est-elle bien passée?</string>
+
+    <!-- PAIRING -->
+    <string name="pairing_no_device_for_account">Votre compte n\'est actuellement associé avec aucun appareil</string>
+    <string name="pairing_button">Appairage</string>
+
+    <!-- SHOP -->
+    <string name="shop_welcome_message">Bienvenue dans la boutique !</string>
+
+    <!-- CONTACT -->
+    <string name="contact_message">Nous contacter</string>
+    <string name="contact_email">equipeeden.contact@gmail.com</string>
+
+    <!-- ALERTE SENDED -->
+    <string name="alertsended_alert_confirmation_text">L\'alerte a bien été envoyée</string>
+    <string name="alertsended_stop_alert_text">Appuyez sur le bouton pour stopper l\'alerte</string>
+    <string name="alertsended_user_feel_in_security">Je me sens en sécurité</string>
+
+    <!-- TUTO -->
+    <string name="tuto_message">Bonjour, ceci est un tuto</string>
+
+    <!-- GET PHONE -->
+    <string name="getphone_erreur">Votre numéro ne convient pas</string>
+    <string name="toast_title_no_image_chosen">No image chosen</string>
+
+</resources>

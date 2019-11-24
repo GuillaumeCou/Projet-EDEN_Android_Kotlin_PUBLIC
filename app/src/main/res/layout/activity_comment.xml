@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+                android:id="@+id/commu_logo"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/community_logo"
+        />
+
+        <TextView
+                android:id="@+id/message_demande_commentaire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/comment_mot"
+                android:textColor="@color/BleuEden"
+                android:textSize="25dp"/>
+
+
+        <TextView
+                android:id="@+id/message_intervention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:text="@string/message_intervention"
+                android:textAlignment="center"
+                android:textColor="@color/BleuEden"
+                android:textSize="20dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+
+        <RadioGroup
+            android:id="@+id/group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_weight="0"
+            android:background="#5e9eff"
+            android:baselineAligned="false"
+            android:checkedButton="@+id/radio2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:touchscreenBlocksFocus="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/comment_radio_yes"
+                style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:buttonTint="#3F51B5"
+                android:checked="false"
+                android:text="@string/popup_message_yes"
+                android:textColor="#FFFF" />
+
+            <RadioButton
+                android:id="@+id/comment_radio_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#3F51B5"
+                android:checked="false"
+                android:focusable="auto"
+                android:text="@string/popup_message_no"
+                android:textColor="#FFFF" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/comment_comment_text"
+            android:layout_width="291dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/ou"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_round"
+            android:hint="@string/comment_comment"
+            android:imeOptions="actionDone"
+            android:inputType=""
+            android:singleLine="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group" />
+
+        <Button
+            android:id="@+id/comment_validate_button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/button_round"
+            android:text="@string/comment_validate"
+            android:textColor="#FFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/comment_comment_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

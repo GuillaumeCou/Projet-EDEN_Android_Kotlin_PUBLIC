@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".plusActivities.ContactActivity">
+
+
+    <TextView
+        android:id="@+id/contact_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/contact_message"
+        android:textColor="@color/BleuEden"
+        android:textSize="@dimen/text_ecran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/ImageFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/ic_person"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageTwitter"
+        app:layout_constraintEnd_toStartOf="@+id/contact_facebook"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_message" />
+
+    <TextView
+        android:id="@+id/contact_facebook"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
+        android:layout_marginBottom="117dp"
+        android:clickable="true"
+        android:text="Projet Eden"
+        android:textColor="@color/BleuEden"
+        android:textSize="@dimen/text_petit"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageMail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageFacebook"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/ImageTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/ic_person"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/ImageMail"
+        app:layout_constraintEnd_toStartOf="@+id/contact_twitter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_facebook" />
+
+    <TextView
+        android:id="@+id/contact_twitter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
+        android:clickable="true"
+        android:text="\@Projet_EDEN"
+        android:textColor="@color/BleuEden"
+        android:textSize="@dimen/text_petit"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageTwitter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageTwitter" />
+
+
+    <ImageView
+        android:id="@+id/ImageMail"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="226dp"
+        android:background="@drawable/ic_person"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/contact_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:clickable="true"
+        android:text="@string/contact_email"
+        android:textColor="@color/BleuEden"
+        android:textSize="@dimen/text_petit"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageMail"
+        app:layout_constraintStart_toEndOf="@+id/ImageMail" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

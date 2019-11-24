@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#176fb7</color>
+    <color name="colorPrimaryDark">#0f3c7c</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorLight">#5e9eff</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="BleuEden">#176fb7</color>
+
+
+    <!-- COLORS ICONS AND IMAGES -->
+    <color name="color112Call">#e70000</color>
+    <color name="colorWaitingIconNavBar">#9b9b9b</color>
+
+</resources>
